@@ -2,8 +2,8 @@ pipeline {
     agent { label 'project-jenkins-slave' }
     environment {
         TAG_VERSION = '4.0.0'
-        REGISTRY_PATH = '277565952452.dkr.ecr.us-east-1.amazonaws.com'
-        ECR_REPO_FULL_NAME = '277565952452.dkr.ecr.us-east-1.amazonaws.com/project-ecr-repo'
+        REGISTRY_PATH = '851725533657.dkr.ecr.us-east-1.amazonaws.com'
+        ECR_REPO_FULL_NAME = '851725533657.dkr.ecr.us-east-1.amazonaws.com/project-ecr-repo'
         WAR_FULL_PATH = '/home/ec2-user/workspace/project-app/target/project-app.war'
         TMP_IMAGE_NAME = 'project-app'
         ECR_REPO_NAME = 'project-ecr-repo'
